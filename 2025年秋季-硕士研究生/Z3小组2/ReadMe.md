@@ -29,18 +29,18 @@
 ## 工作简介
 
 - 介绍了什么是Z3，并附上相关的Z3在一些领域上的应用展示
-- 通过数字时钟和哲学家进餐两个demo案例展示了vscode中TLA+插件的使用方法
-- 通过分析两个案例中的PlusCal代码，介绍了TLA+的核心逻辑
+- 通过通过求解鸡兔同笼问题和位向量求解以求得加密密钥展示了Z3求解器在具体实践中的使用
+- 最后讨论了Z3在目前的大模型浪潮中，可以和大语言模型一起扬长避短配合从而打造更好的通用人工智能
 
 
 
 ## 相关链接
 
-[TLA+ 官方网站](https://lamport.azurewebsites.net/tla/tla.html)   
-[TLA+ 规范入门教程](https://learntla.com/)  
-[PlusCal 用户手册](https://lamport.azurewebsites.net/tla/pluscal.html)    
-[哲学家进餐问题的 TLA+ 示例](https://github.com/tlaplus/Examples/tree/master/specifications/DiningPhilosophers) 
+[Z3 solver微软开发的可满足性模理论求解器]([https://lamport.azurewebsites.net/tla/tla.html](https://ctf-wiki.org/reverse/tools/constraint/z3/))   
+[Z3 solver 包地址](https://pypi.org/project/z3-solver/)  
+[SMTMIB语法使用Z3进行逻辑建模 ](https://zhuanlan.zhihu.com/p/624758007)    
+
 
 ## 思考
 
-通过数字时钟和哲学家就餐两个案例，我们了解了TLA+的使用方法，也体会到了 TLA+ 在系统设计早期发现逻辑错误进而提升设计严谨性的能力，其为关键系统提供了一种高性价比的形式化验证手段。
+如我们在最后的讨论中所说，目前的大语言模型在论证证明等语言输出领域是十分有效的，但对于一些简单的加减乘除运算却表现较差，这反映了目前的大语言模型与真正的类脑智能的核心差距，如何在大语言模型中插入一个专门负责数理逻辑的模块是一个很有意义的研究方向
